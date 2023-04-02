@@ -1,0 +1,38 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(8, 18, 28);
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.App canvas {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: absolute;
+}
+
+h1 {
+  font-size: 10vw;
+  color: white;
+  text-transform: uppercase;
+}
